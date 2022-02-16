@@ -1,1 +1,3 @@
-# AltRealitiesProject1
+# Alternate Realities Project 1
+
+Your patrol is traveling through the night since it is the only time when the titans are inactive. The decision is made to stay within the nearby castle, and rest until morning before resuming their patrol. The group gathers in an intact room, and attempt to get some rest while things are quiet. The senior officers set up a watch on top of the tower, and prepare for a long night. As you are on the watch, the castle comes under attack by Titans able to function normally during the night. You can see how they slowly gather around the tower and that most likely the castle will not withstand their power.
