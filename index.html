@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+  </head>
+  <body>
+    <header>
+      <h2>Alternate Realities</h2>
+      <h3>Utgard Castle</h3>
+    </header>
+    <section>
+      <h3>Gameplay walkthrough</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/O4KRUSkm1dQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <h3>Visuals</h3>
+      <div class="images">
+        <img src="images/img1.png" width="300" height="150" />
+        <img src="images/img2.png" width="300" height="150" />
+        <img src="images/img3.png" width="300" height="150" />
+      </div>
+      <div class="images">
+        <img src="images/img5.png" width="300" height="150" />
+        <img src="images/img6.png" width="300" height="150" />
+        <img src="images/img7.png" width="300" height="150" />
+      </div>
+      <h3>“Titans are here!”</h3>
+      <p>
+        Your patrol is traveling through the night since it is the only time
+        when the titans are inactive. The decision is made to stay within the
+        nearby castle, and rest until morning before resuming their patrol. The
+        group gathers in an intact room, and attempt to get some rest while
+        things are quiet. The senior officers set up a watch on top of the
+        tower, and prepare for a long night. As you are on the watch, the castle
+        comes under attack by Titans able to function normally during the night.
+        You can see how they slowly gather around the tower and that most likely
+        the castle will not withstand their power.
+      </p>
+      <h3>Reflection</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/tGisJqXu0eE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <p>The only visual I got from development is the one above.</p>
+      <p>
+        At first, I made the terrain with the forest and some hills. I didn't
+        find any assets for free towers, therefore I made one myself using
+        Blender. I followed a tutorial and the same way created the stairway
+        inside the tower. At that point in time, I thought that doing the main
+        position on the lowest level of the tower would be better because of the
+        window. However, giving it some thought, the lighting, the moon, and the
+        view were better at the top of the building.
+      </p>
+      <p>
+        Secondly, I started to decor the room. I had to make a hole in the floor
+        for the staircase using the experimental tool of ProBuilder. Since it
+        was experimental, Unity crashed sometimes, so I decide to stay with the
+        hole that I have in the final. Afterward, I started to look for assets
+        that would help me with the Medieval vibe. After some time, I decided to
+        just add weapons, torches, lanterns, a chest, and barrels. Maybe barrels
+        could be helped if some titans would climb the walls since in the
+        setting there could be 3-meter long titans.
+      </p>
+      <p>
+        Thirdly, I added a titan. I got a pretty good-looking titan from assets
+        and now had to add the animation. The asset already had a walking
+        animation, so I had to add the animation for going back and forth by
+        recording the animation. I believe that it is quite good-looking for a
+        free asset. From the video above it could be seen that afterward, I made
+        some changes in his movements and his size. Also, I changed the
+        background, adding mountains and more trees.
+      </p>
+      <p>
+        Lastly, I added the sounds. I think that there shouldn't be many sounds,
+        so I added only the wind sound and titan walking sound. For the premise
+        and the storytelling, I think it is enough. It would be also great to
+        add the animation of the trees moving from side to side because of the
+        wind, but Unity was already somewhat lagging. I changed the pitch of
+        both sounds and adjusted the volume. I also added the VR Rig and it
+        worked, but it is better if you are not moving in the game, somehow the
+        frames are loading incorrectly in some parts.
+      </p>
+      <h3>Challenges and Final Thoughts</h3>
+      <p>
+        This Project is basically an introduction to Unity. Combining all the
+        Labs that we had into a project sounded impossible at first, but look
+        where we are! However, even though it wasn't impossible, it was still
+        hard. The most challenging part was building the tower and its insides.
+        No, it wasn't hard to build it in Blender, rather adjusting everything
+        in the right position. This scrupulous work took the most time!
+      </p>
+      <p>
+        Another challenging part was to animate the titan. Even though I had an
+        idea on how to it and after some time it got easier, in the beginning,
+        it was hell. I even thought about doing something else! But everything
+        worked out and I got experience in animation and animating!
+      </p>
+      <p>
+        For future projects, it would be nice to make the animations myself for
+        a hero and make a logical end of the walk of the titan. Right now it is
+        always walking, while it would be creepier if it would stand a bit, look
+        around and then continue to walk. In addition, it would be nice to use
+        your arms in the game!
+      </p>
+    </section>
+  </body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    html {
+      font-family: "Poppins", sans-serif;
+      overflow-x: hidden;
+    }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgb(230, 168, 230);
+      color: rgb(97, 23, 143);
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+    }
+    section {
+      color: rgb(98, 19, 163);
+      background: rgb(255, 228, 255);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 50px;
+    }
+    section h3 {
+      margin-top: 20px;
+    }
+    iframe {
+      margin-top: 20px;
+    }
+
+    .images {
+      margin-top: 20px;
+    }
+    p {
+      width: 70%;
+      margin-top: 20px;
+    }
+  </style>
+</html>
